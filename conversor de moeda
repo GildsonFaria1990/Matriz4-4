@@ -1,0 +1,19 @@
+algoritmo "conversor de moedas"
+//  
+//  
+
+var
+   R, D:REAL
+   C, Q: INTEIRO
+inicio
+      C<-1
+      ESCREVA(" QUANTAS VEZES VOCÊ QUER CONVERTER:")
+      LEIA(Q)
+      ENQUANTO (C<=Q) FACA
+               ESCREVA(" QUAL O VALOR EM R$?")
+               LEIA(R)
+               D<- R/2,20
+               ESCREVAL("VALOR CONVETIDO EM US$", D:5:2)
+               C<- C+1
+      FIMENQUANTO
+fimalgoritmo
